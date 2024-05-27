@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(45deg, rgba(116,40,169, 0.2) 0%, rgba(116,40,169, 0.2) 16.667%,rgba(140, 59, 158,0.2) 16.667%, rgba(140, 59, 158,0.2) 33.334%,rgba(166, 77, 147,0.2) 33.334%, rgba(166, 77, 147,0.2) 50.001%,rgba(245, 133, 115,0.2) 50.001%, rgba(245, 133, 115,0.2) 66.668%,rgba(219, 114, 126,0.2) 66.668%, rgba(219, 114, 126,0.2) 83.335%,rgba(193, 96, 137,0.2) 83.335%, rgba(193, 96, 137,0.2) 100.002%),linear-gradient(22.5deg, rgba(116,40,169, 0.2) 0%, rgba(116,40,169, 0.2) 16.667%,rgba(140, 59, 158,0.2) 16.667%, rgba(140, 59, 158,0.2) 33.334%,rgba(166, 77, 147,0.2) 33.334%, rgba(166, 77, 147,0.2) 50.001%,rgba(245, 133, 115,0.2) 50.001%, rgba(245, 133, 115,0.2) 66.668%,rgba(219, 114, 126,0.2) 66.668%, rgba(219, 114, 126,0.2) 83.335%,rgba(193, 96, 137,0.2) 83.335%, rgba(193, 96, 137,0.2) 100.002%),linear-gradient(0deg, rgba(116,40,169, 0.2) 0%, rgba(116,40,169, 0.2) 16.667%,rgba(140, 59, 158,0.2) 16.667%, rgba(140, 59, 158,0.2) 33.334%,rgba(166, 77, 147,0.2) 33.334%, rgba(166, 77, 147,0.2) 50.001%,rgba(245, 133, 115,0.2) 50.001%, rgba(245, 133, 115,0.2) 66.668%,rgba(219, 114, 126,0.2) 66.668%, rgba(219, 114, 126,0.2) 83.335%,rgba(193, 96, 137,0.2) 83.335%, rgba(193, 96, 137,0.2) 100.002%),linear-gradient(90deg, rgb(55,55,55),rgb(181,181,181));
+
+.converter {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backgroup-filter: blur(10px);
+    background-color:rgba(203,203,203,0.5);
+    border:2px solid black;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #007632;
+}
+#inputValue, #inputUnit{
+    border:2px solid black;
+    border-radius:5px;
+    backgroup-filter: blur(8px);
+    background-color:rgba(206,203,203,0.3);
+}
